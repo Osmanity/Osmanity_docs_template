@@ -1,0 +1,60 @@
+import {
+  BoxIcon,
+  BrushIcon,
+  DropperIcon,
+  FilesIcon,
+  GlobeIcon,
+  LightningIcon,
+  LinkIcon,
+  MarkdownIcon,
+  PictureIcon,
+  StarsIcon,
+  DashboardIcon,
+} from "@components/icons";
+import { Card, Cards } from "nextra/components";
+
+# Guide
+
+The following **How-To Guide** you can find in our service:
+
+<Cards>
+  {/* <Card
+    icon={<FilesIcon />}
+    title="Organize Files"
+    href="/docs/guide/organize-files"
+  /> */}
+  {/* <Card icon={<MarkdownIcon />} title="Markdown" href="/docs/guide/markdown" /> */}
+  <Card
+    icon={<DashboardIcon />}
+    title="Dashboard Setup"
+    href="/docs/guide/dashboard"
+  />
+  <Card
+    icon={<StarsIcon />}
+    title="Train Your Avatar"
+    href="/docs/guide/trainAvatar"
+  />
+  <Card
+    icon={<LinkIcon />}
+    title="Connect To Your Website"
+    href="/docs/guide/connectToWebsite"
+  />
+  {/* <Card icon={<PictureIcon />} title="Next.js Image" href="/docs/guide/image" />
+  <Card icon={<LightningIcon />} title="Next.js SSG" href="/docs/guide/ssg" />
+  <Card icon={<GlobeIcon />} title="Next.js I18n" href="/docs/guide/i18n" /> 
+  <Card
+    icon={<BoxIcon />}
+    title="Built-in Components"
+    href="/docs/guide/built-ins"
+  />*/}
+  <Card
+    icon={<BrushIcon />}
+    title="Customize Avatar"
+    href="/docs/guide/customizeAvatar"
+  />
+  <Card
+    icon={<DropperIcon />}
+    title="Customize Environments"
+    href="/docs/guide/customizeEnvironments"
+  />
+</Cards>

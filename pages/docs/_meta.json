@@ -1,0 +1,22 @@
+{
+  "index": "Introduction",
+  "guide": "Guide",
+  "-- Avatar": {
+    "type": "separator",
+    "title": "Avatar"
+  },
+  "advanced": "",
+  "-- More": {
+    "type": "separator",
+    "title": "More"
+  },
+  "about-link": {
+    "title": "About Osmanity",
+    "href": "/about"
+  },
+  "next.js-link": {
+    "title": "Next.js Docs ↗",
+    "href": "https://nextjs.org",
+    "newWindow": true
+  }
+}
