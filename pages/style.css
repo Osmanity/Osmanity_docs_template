@@ -2,11 +2,11 @@
 
 ::selection {
   color: #ffffff;
-  background-color: #7c3aed9a; /* Example blue color */
+  background-color: #7c3aed; /* Example blue color */
 }
 
 /* Change the color and background color of the selected text */
 ::-moz-selection {
   color: #ffffff;
-  background-color: #7c3aed85; /* Example blue color */
+  background-color: #7c3aed; /* Example blue color */
 }
